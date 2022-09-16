@@ -10,11 +10,11 @@ ul {
 
 body {
     background-image: url(./assets/bg.jpg);
-    background-position: bottom center;
+    background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #000000;
-    
+    background-attachment: scroll;
 }
 
 body * {
@@ -42,11 +42,11 @@ header {
 header div {
     width: 180px;
     margin: auto;
-    background-image: conic-gradient(rgb(197, 35, 35) 0%,  #575757 45%,  #aaa8a8 50%, #575757 55%, rgb(197, 35, 35));
+    background-image: conic-gradient(rgb(255, 0, 0) 0%,  #000000 40%, #000000 60%, rgb(255, 0, 0));
     border-radius: 50%;
 
     display: flex;
-    padding: 4px;
+    padding: 7px;
 
 /* efeito de transição */
     transition: transform .3s;
@@ -60,25 +60,26 @@ header img {
 
     width: 100%;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #0f0f0fd0;
 }   
 
 section {
 
     color: rgba(255, 255, 255, 0.74);
-    background-image: linear-gradient(90deg, rgb(197, 35, 35) 0%,  #575757 45%,  #aaa8a8 50%, #575757 55%, rgb(197, 35, 35));
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-image: radial-gradient(rgb(255, 0, 0) 0%,  #000000 40%, #000000 60%, rgb(255, 0, 0));
+    padding-top: 7px;
+    padding-bottom: 7px;
     border-radius: 30px;
-
+    
 }
 
 section div {
 
-    background-color: #000000;
+    background-color: #0f0f0fd0;
     padding: 32px;
     padding-top: 24px;
     border-radius: 28px;
+    
 }
 
 section h2 {
